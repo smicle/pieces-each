@@ -1,0 +1,36 @@
+{
+  "name": "pieces-each",
+  "version": "1.0.0",
+  "description": "Recreate the array into n chunks.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "test": "jest"
+  },
+  "author": {
+    "name": "smicle",
+    "email": "bhhs1270026@gn.iwasaki.ac.jp",
+    "url": "https://github.com/smicle"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smicle/pieces-each.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smicle/pieces-each/issues",
+    "email": "bhhs1270026@gn.iwasaki.ac.jp"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "each",
+    "array"
+  ],
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.4.0",
+    "ts-jest": "^25.4.0"
+  }
+}
